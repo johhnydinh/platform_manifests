@@ -48,7 +48,7 @@
     <project path="vendor/redroid_ext" name="vendor_redroid_ext" groups="redroid" remote="redroid-rockchip" revision="master" />
 
     <include name="external.xml" />
-    <include name="mindthegapps.xml" />
-    <include name="rockchip.xml" />
+    <include name="rockchip.xml" /> 
+    <include name="rockchip_ext.xml" />
 
 </manifest>
