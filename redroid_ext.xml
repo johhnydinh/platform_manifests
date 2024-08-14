@@ -21,7 +21,4 @@
 
     <remote name="mtg" fetch="https://gitlab.com/MindTheGapps/" />
     <project path="vendor/redroid_ext" name="vendor_redroid_ext" groups="redroid" remote="redroid-rockchip" revision="master" />
-
-    <include name="rockchip.xml" />
-
 </manifest>
