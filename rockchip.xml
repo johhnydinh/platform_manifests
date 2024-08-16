@@ -19,9 +19,6 @@
     <project path="hardware/rockchip/librkvpu" name="rk/hardware/rk29/librkvpu" remote="rk"/>
     -->
 
-    <remove-project name="platform/external/libdrm" />
-    <project name="orange_pi_5_plus_external_libdrm" path="external/libdrm" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
-
     <project name="orange_pi_5_plus_device_rockchip_common" path="device/rockchip/common" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
     <project name="orange_pi_5_plus_vendor_rockchip_common" path="vendor/rockchip/common" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
     <project name="orange_pi_5_plus_hardware_rockchip_libbaseparameter" path="hardware/rockchip/libbaseparameter" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />

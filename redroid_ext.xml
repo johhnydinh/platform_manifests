@@ -13,8 +13,8 @@
     <project path="device/redroid" name="device_redroid" groups="redroid" remote="redroid-rockchip" />
     <remove-project name="vendor_redroid" />
     <project path="vendor/redroid" name="vendor_redroid" groups="redroid" remote="redroid-rockchip" revision="master" />
-    <!-- <remove-project name="redroid-omx" />
-    <project path="hardware/redroid/omx" name="redroid-omx" groups="redroid" remote="redroid-rockchip" revision="master" /> -->
+    <remove-project name="redroid-omx" />
+    <project path="hardware/redroid/omx" name="redroid-omx" groups="redroid" remote="redroid-rockchip" revision="master" />
 
     <project path="vendor/magisk" name="vendor_magisk" groups="redroid" remote="redroid-rockchip" revision="master" clone-depth="1" />
     <project path="vendor/gapps" name="vendor_gapps" revision="sigma" remote="mtg" />
