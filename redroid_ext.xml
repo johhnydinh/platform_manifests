@@ -6,7 +6,7 @@
     <project path="bionic" name="aosp_bionic" groups="redroid" remote="redroid-rockchip" clone-depth="1" />
     <remove-project name="platform/hardware/interfaces" />
     <project path="hardware/interfaces" name="aosp_hardware_interfaces" groups="redroid" remote="redroid-rockchip" clone-depth="1" />
-    <remove-project name="platform_frameworks_native" />
+    <!-- <remove-project name="platform_frameworks_native" /> -->
     <project path="frameworks/native" name="aosp_frameworks_native" groups="redroid" remote="redroid-rockchip" clone-depth="1" />
 
     <remove-project name="device_redroid" />
