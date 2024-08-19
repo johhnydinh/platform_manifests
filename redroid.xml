@@ -2,7 +2,7 @@
 <manifest>
     <remote name="redroid" fetch="https://github.com/remote-android/" revision="redroid-12.0.0" />
 
-    <!-- remove unused projects -->
+    <!-- remove unused projects
     <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
     <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -13,7 +13,6 @@
     <remove-project name="platform/prebuilts/go/darwin-x86" />
     <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
-    <!-- remove few projects we have replacements for -->
     <remove-project name="platform/external/mesa3d" />
     <remove-project name="platform/external/minijail" />
     <remove-project name="platform/external/selinux" />
@@ -24,7 +23,7 @@
     <remove-project name="platform/system/libhwbinder" />
     <remove-project name="platform/system/libvintf" />
     <remove-project name="platform/system/netd" />
-    <remove-project name="platform/system/vold" />
+    <remove-project name="platform/system/vold" /> -->
 
     <!-- These are all Android repositories we have modifications for -->
     <project path="external/selinux" name="platform_external_selinux" groups="redroid,aosp,pdk" remote="redroid" />
