@@ -7,7 +7,7 @@
     <remove-project name="platform/hardware/interfaces" />
     <project path="hardware/interfaces" name="aosp_hardware_interfaces" groups="redroid" remote="redroid-rockchip" clone-depth="1" />
     <!-- <remove-project name="platform_frameworks_native" /> -->
-    <project path="frameworks/native" name="aosp_frameworks_native" groups="redroid" remote="redroid-rockchip" clone-depth="1" />
+    <!-- <project path="frameworks/native" name="aosp_frameworks_native" groups="redroid" remote="redroid-rockchip" clone-depth="1" /> -->
 
     <remove-project name="device_redroid" />
     <project path="device/redroid" name="device_redroid" groups="redroid" remote="redroid-rockchip" />
